@@ -18,7 +18,7 @@ function squareNumbers(arr) {
 // You need to use the array.reduce() function
 function sumArray(arr) {
   //  TODO - Your code here (1 line)
-  return arr.reduce((V,val) => V+ val);
+  return arr.reduce(((x,val) => x + val),0);
 }
 
 console.log("Even numbers:", filterEvenNumbers(numbers)); // [2, 4]
